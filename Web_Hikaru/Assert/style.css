@@ -1,0 +1,213 @@
+header {
+    position: fixed;   /* ติดบนหน้าเว็บ */
+    top: 0;            /* อยู่ด้านบน */
+     left: 0;
+    width: 100%;       /* กว้างเต็มจอ */
+    height: 70px;      /* ปรับตามต้องการ */
+    background-color: #5b00db; /* สีพื้น */
+    color: white;      /* สีตัวอักษร */
+    z-index: 1000;     /* ให้อยู่เหนือเนื้อหาอื่น */
+    font-family: "Noto Sans Thai" ;
+}
+.Logo{
+    width: 70px;       
+    height: 70px;
+}
+.Language{
+    position: fixed;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    right: 32px;   
+}
+.Language:hover{
+    color: black;
+    cursor: pointer;
+    
+}
+.GUI{
+    position: fixed;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 18px;
+    text-decoration: none;
+    right: 100px;
+}
+.GUI:hover{
+    color: black;
+    cursor: pointer;
+}
+.DL{
+    position: fixed;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 18px;
+    text-decoration: none;
+    right: 260px;
+}
+.DL:hover{
+    color: black;
+    cursor: pointer;
+}
+.name{
+    position: fixed;
+    color: white;
+    font-size: 50px;
+    margin-top: 2px;
+    left: 75px;
+    filter: drop-shadow(5px 3px 2px rgba(24, 11, 209, 0.525));
+}
+body {
+    margin-top: 70px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: "Noto Sans Thai" ;
+}
+h1{
+    color: white;
+    text-align: center;
+    filter: drop-shadow(5px 3px 2px rgba(24, 11, 209, 0.525));
+    
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.circle img {
+    width: 200%;
+    height: 200%;
+    object-fit: cover;      
+    object-position: center;
+}
+.left {
+    width: 40%;           
+    padding: 40px;
+}
+.n1{
+    font-size: 40px;
+    color: white;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+.D{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.D2{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+.n2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+.Persona{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(66, 116, 255, 0.14) ;
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+.right{
+    width: 60%;           
+    padding-top: 20px;
+    margin-bottom: 0;
+    
+}
+.icon{
+    display: flex;
+    justify-content: center; 
+}
+.icon img{
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.list{
+    font-size: 20px;
+    color: white;
+    padding-left: 320px;
+}
+.Socia{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    padding-top: 20px;
+    background-color: white;
+    text-align: center;
+}
+details{
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.dlink{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+.n3{
+    margin-top: 100px;
+}
+#En{
+    height: 160px;
+}
+.right2{
+    width: 55%;           
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.left2{
+    width: 45%;           
+    padding: 40px;
+}
+.DL2{
+    position: fixed;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 18px;
+    text-decoration: none;
+    right: 240px;
+}
+.DL2:hover{
+    color: black;
+    cursor: pointer;
+}
+.link:hover{
+    color: red;
+    cursor: pointer;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
